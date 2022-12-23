@@ -13,7 +13,7 @@ const listToAdd =  ingredients.forEach((ingredient) => {
   
   ingr.textContent = ingredient;
 
-  ingr.classList.add(".item");
+  ingr.classList.add("item");
 
   ingridiendsUl.appendChild(ingr);
   

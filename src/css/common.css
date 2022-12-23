@@ -27,8 +27,14 @@ li {
   list-style: none;
 }
 
- .gallery {
+.gallery {
   display: flex;
   flex-direction: column;
   gap: 10px;
 } 
+
+img {
+  display: block;
+  max-width: 640px;
+  height: auto;
+}

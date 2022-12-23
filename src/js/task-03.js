@@ -26,4 +26,3 @@ const makeImgListMarkup = image => {
 const listEl = document.querySelector('.gallery');
 const makeImgList = images.map(makeImgListMarkup).join("");
 listEl.insertAdjacentHTML('afterbegin', makeImgList)
-// console.log(makeImgList);
